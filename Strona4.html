@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Strona z jQuery</title>
+    <script src="jQuery.js"></script>
+    <script src="Skrypt4.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#przycisk").on("click", function() {
+                sprawdzZgodnosc();
+            });
+
+            $("#Przycisk2").on("click", function() {
+                licz();
+            });
+
+            $("#Dodaj").on("click", function() {
+                DodajParagraf();
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <!--A i B-->
+    <input type="text" id="poleTekstowe1" value="Proszę podać tekst" />
+    <input type="text" id="poleTekstowe2" value="Proszę podać tekst" />
+    <input type="text" id="poleTekstowe3" value="Proszę podać tekst" />
+
+    <button type="button" name="Sprawdz tekst" id="przycisk">Proszę podać tekst</button>
+
+    <!--C-->
+    <button type="button" name="Przycisk2" id="Przycisk2">Suma</button>
+
+    <input type="text" id="poleTekstowe4" value="" />
+    <input type="text" id="poleTekstowe5" value="" />
+    <input type="text" id="poleTekstowe6" value="" />
+
+
+    <!--D-->
+    <input type="text" id="poleTekstowe7" value="Proszę podać tekst" />
+    <input type="text" id="poleTekstowe8" value="Proszę podać kolor" />
+    <button type="button" name="Dodaj" id="Dodaj">Dodaj</button>
+
+</body>
+
+</html>
