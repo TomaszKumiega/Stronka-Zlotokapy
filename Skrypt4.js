@@ -22,5 +22,8 @@ function licz() {
 }
 
 function DodajParagraf() {
+    element = $("<p></p>").css("backgroundColor", $("#poleTekstowe8").val());
+    $("body").append(element.text($("#poleTekstowe7").val()));
+
 
 }
