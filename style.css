@@ -153,6 +153,20 @@ article {
     display: block;
 }
 
+.article-image-right {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 15px;
+}
+
+.article-image-left {
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin-right: 30px;
+}
+
 span {
     float: left;
     margin-bottom: 40px;
